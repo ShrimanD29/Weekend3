@@ -1,0 +1,298 @@
+#header{
+    background-color: transparent;
+  padding: 8px 1px;
+  margin-left: -20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  transition: 0.7s;
+  margin-top: -10px;
+}
+
+.bg1{
+  height: 700px;
+  text-align: center;
+  
+}
+#logo{
+  transition: 0.5s;
+}
+
+
+.a2{
+    position: absolute;
+  top: 250px;
+  left: 50px;
+  animation: slideDown 2000ms ease-in-out;
+}
+
+@keyframes slideDown {
+  0% {
+      -webkit-transform: translateY(-80%);
+      transform: translateY(-80%);
+      visibility: visible;
+  }
+
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+
+  }
+}
+
+.a2 h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.a1{
+    position: absolute;
+    width: 30rem;
+    padding: 1rem 1rem;
+  top: 350px;
+  left: 50px;
+  text-align: justify;
+  animation: slideUp 2000ms ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+      -webkit-transform: translateY(80%);
+      transform: translateY(80%);
+      visibility: visible;
+  }
+
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+
+  }
+}
+
+
+.a1 p::first-letter{
+    font-size: 4rem;
+    font-weight: 600;
+    float: left;
+    line-height: 4rem;
+    margin-right: 0.5rem;
+}
+
+.b{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.b1{
+  width: 747px;
+  background: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.b11{
+  transition: 0.5s;
+}
+.b11:hover {
+  transform: scale(1.05); 
+}
+.b12{
+  transition: 0.5s;
+}
+.b12:hover {
+  transform: scale(1.05); 
+}
+.b13{
+  transition: 0.5s;
+}
+.b13:hover {
+  transform: scale(1.05); 
+}
+.b2{
+  padding-right: 27px;
+  width: 313px;
+  background: white;
+}
+
+.b21{
+  animation: float 2000ms ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float1 {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-20px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+
+
+.b3{
+  width: 800px;
+  text-align: center;
+  padding-top: 22px;
+  display: flex;
+  text-align: justify;
+}
+.b31{
+  width: 50%;
+  
+}
+.b311{
+  display: flex;
+  transition: 0.5s;
+  
+}
+.b311:hover {
+  transform: scale(1.02); 
+}
+.b311 p{
+  padding-left: 10px;
+}
+.b311 img{
+  width: 65px;
+  border-radius: 50%;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.b32{
+  width: 50%;
+
+}
+
+.b11 img{
+  margin-left: -480px;
+}
+
+.b11 p{
+  margin-left: -480px;
+  font-family: Cambria;
+}
+
+
+
+.b12 img{
+  margin-left: -80px;
+  margin-top: -300px;
+  margin-bottom: -20px;
+}
+
+.b12 p{
+  margin-left: -75px;
+  margin-top: -54px;
+  font-family: Cambria;
+}
+
+.b13 img{
+  margin-left: 380px;
+  margin-top: -300px;
+  margin-bottom: 56px;
+}
+
+.b13 p{
+  margin-left: 387px;
+  margin-top: -70px;
+  font-family: Cambria;
+}
+
+.column {
+  float: left;
+  margin-top: 50px;
+  width: 25%;
+  padding: 0px;
+  height: 500px; 
+  transition: 0.5s;
+  opacity: 50%;
+  
+}
+.column:hover{
+  transform: scale(1.02);
+  transition: opacity 1s;
+}
+
+.c:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.column h2{
+  position: relative;
+  width: 20rem;
+  padding: 1rem 1rem;
+  font-family: Cambria;
+  font-weight: bold;
+top: -20px;
+left: 10px;
+text-align: center;
+}
+
+
+
+.footer{
+  position: relative;
+  bottom: -25px;
+  left: -5px;
+  width: 100.5%;
+  background: gray;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.icons{
+  padding-top: 1rem;
+}
+
+.icons a{
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0.5rem;
+  color: #f4f4f4;
+}
+
+.company-name{
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 500px){
+  html{
+      font-size: 50%;
+  }
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+  html{
+  font-size: 50%;
+  }
+}    
+
+.cli img{
+  max-width: 300px;
+  height: auto;
+}
+
+.hidden{
+  overflow: hidden;
+  display: none;
+  visibility: hidden;
+}
